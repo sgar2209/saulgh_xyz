@@ -5,29 +5,20 @@ layout: hextra-home
 
 {{< hextra/hero-badge >}}
   <div class="w-2 h-2 rounded-full bg-primary-400"></div>
-  <span>Open to network</span>
-  {{< icon name="network-wired" attributes="height=14" >}} <!-- Icon representing connection -->
+  <span>Free, open source</span>
+  {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 <div class="mt-6 mb-6">
 {{< hextra/hero-headline >}}
-  Saul Garcia Huertes <!-- Title -->
+  Build modern websites&nbsp;<br class="sm:block hidden" />with Markdown and Hugo
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="mb-12">
 {{< hextra/hero-subtitle >}}
-  Startup CEO & Co-founder. Tech Strategist. Lecturer. <!-- Subtitle -->
+  Fast, batteries-included Hugo theme&nbsp;<br class="sm:block hidden" />for creating beautiful static websites
 {{< /hextra/hero-subtitle >}}
-</div>
-
-<div class="mb-6">
-  <p>🚀 CEO & Co-founder of stageinhome.com, disrupting the proptech industry with an AI approach. 💡 Co-founder of tracksco2.com (newspace applications for a decarbonizated economy) and tokeneat.xyz (web3, blockchain and a new angle for NFT applications). 📣 Speaker and Management Consultant on Digital Transformation topics. 🎓 Phd Student, and University Lecturer on Innovation and Entrepreneurship.</p>
-</div>
-
-<div class="mb-6">
-  <!-- Placeholder for Image -->
-  <img src="images/hero.svg" alt="Saul Garcia Huertes" class="your-custom-class">
 </div>
 
 <div class="mb-6">
@@ -35,7 +26,6 @@ layout: hextra-home
 </div>
 
 <div class="mt-6"></div>
-
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
