@@ -5,8 +5,8 @@ layout: hextra-home
 
 {{< hextra/hero-badge >}}
   <div class="w-2 h-2 rounded-full bg-primary-400"></div>
-  <span>Open to network</span>
-  {{< icon name="user-plus" attributes="height=14" >}} <!-- Icon representing connection -->
+  <span>Free, open source</span>
+  {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 <div class="mt-6 mb-6">
