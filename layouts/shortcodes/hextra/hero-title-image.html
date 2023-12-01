@@ -1,0 +1,23 @@
+{{/* hero-title-image.html */}}
+{{- $title := .Get "title" -}}
+{{- $image := .Get "image" -}}
+{{- $alt := .Get "alt" | default $title -}}
+{{- $class := .Get "class" -}}
+{{- $style := .Get "style" -}}
+{{- $imgClass := .Get "imgClass" -}}
+{{- $imgStyle := .Get "imgStyle" -}}
+
+<div
+  class="{{ $class }} not-prose inline-flex items-center"
+  {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+>
+  {{ if $image }}
+    <img 
+      src="{{ $image | relURL }}" 
+      alt="{{ $alt }}" 
+      class="{{ $imgClass }} rounded-full" 
+      {{ with $imgStyle }}style="{{ . | safeCSS }}"{{ end }}
+    />
+  {{ end }}
+  <span class="ml-3">{{ $title | markdownify }}</span>
+</div>
