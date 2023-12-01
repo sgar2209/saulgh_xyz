@@ -3,27 +3,46 @@ title: Hextra Theme
 layout: hextra-home
 ---
 
+<!-- Invisible Table for Layout -->
+<table border="0" style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <!-- Left Column -->
+    <td style="width: 60%; vertical-align: top; border: none;">
+
 {{< hextra/hero-badge >}}
   <div class="w-2 h-2 rounded-full bg-primary-400"></div>
-  <span>Free, open source</span>
-  {{< icon name="chat-bubble-left-ellipsis" attributes="height=14" >}}
+  <span>Open to network</span>
+  {{< icon name="globe-alt" attributes="height=14" >}} <!-- Icon representing connection -->
 {{< /hextra/hero-badge >}}
 
 <div class="mt-6 mb-6">
 {{< hextra/hero-headline >}}
-  Build modern websites&nbsp;<br class="sm:block hidden" />with Markdown and Hugo
+  Saul Garcia Huertes <!-- Title -->
 {{< /hextra/hero-headline >}}
 </div>
 
 <div class="mb-12">
 {{< hextra/hero-subtitle >}}
-  Fast, batteries-included Hugo theme&nbsp;<br class="sm:block hidden" />for creating beautiful static websites
+  Startup CEO & Co-founder. Tech Strategist. Lecturer. <!-- Subtitle -->
 {{< /hextra/hero-subtitle >}}
 </div>
 
 <div class="mb-6">
-{{< hextra/hero-button text="Get Started" link="docs" >}}
+{{< hextra/hero-button text="Contact Me" link="mailto:me@saulgh.xyz" >}}
 </div>
+
+</td>
+    <!-- Right Column -->
+    <td style="width: 40%; vertical-align: top; border: none;">
+
+
+<div class="mb-12">
+{{< hextra/hero-title-image image="/images/hero.svg" alt="Saul Garcia" imgStyle="width: 300px; height: auto;" >}}
+</div>
+
+  </td>
+  </tr>
+</table>
 
 <div class="mt-6"></div>
 
