@@ -31,13 +31,12 @@ layout: hextra-home
 {{< hextra/hero-button text="Contact Me" link="mailto:me@saulgh.xyz" >}}
 </div>
 
-</td>
+  </td>
     <!-- Right Column -->
-    <td style="width: 40%; vertical-align: top; border: none;">
-
+    <td style="width: 40%; vertical-align: top; border: none; text-align: right;">
 
 <div class="mb-12">
-{{< hero-title-image image="/images/hero.svg" alt="Saul Garcia" imgStyle="width: 300px; height: auto;" >}}
+{{< hero-title-image image="/images/hero.png" alt="Saul Garcia" imgStyle="width: 400px; height: auto;" >}}
 </div>
 
   </td>
