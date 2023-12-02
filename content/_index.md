@@ -37,7 +37,7 @@ layout: hextra-home
 
 
 <div class="mb-12">
-{{< hextra/hero-title-image image="/images/hero.svg" alt="Saul Garcia" imgStyle="width: 300px; height: auto;" >}}
+{{< hero-title-image image="/images/hero.svg" alt="Saul Garcia" imgStyle="width: 300px; height: auto;" >}}
 </div>
 
   </td>
